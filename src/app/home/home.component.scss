@@ -1,0 +1,13 @@
+.wrapper-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 9rem;
+  margin-top: 4rem;
+
+  img {
+    margin-bottom: 6rem;
+    width: 70%;
+  }
+}

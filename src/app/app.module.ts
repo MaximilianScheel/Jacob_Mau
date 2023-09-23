@@ -5,26 +5,30 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ImprintComponent } from './imprint/imprint.component';
-import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { ArchitectureComponent } from './architecture/architecture.component';
+import { ContactSectionComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ImprintComponent,
-    ContactComponent,
     FooterComponent,
     HomeComponent,
     LegalNoticeComponent,
-    ArchitectureComponent
+    ArchitectureComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
