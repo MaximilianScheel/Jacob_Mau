@@ -12,6 +12,8 @@ import { ArchitectureComponent } from './architecture/architecture.component';
 import { ContactSectionComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EnergyConsultingComponent } from './energy-consulting/energy-consulting.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     LegalNoticeComponent,
     ArchitectureComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    EnergyConsultingComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

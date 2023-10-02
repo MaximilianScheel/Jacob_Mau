@@ -29,6 +29,12 @@
         >energieberatung</a
       >
       <a
+        href="#profile"
+        [class.active]="activeSectionId === 'profile'"
+        (click)="handleNavLinkClick($event)"
+        >profil</a
+      >
+      <a
         href="#contact"
         [class.active]="activeSectionId === 'contact'"
         (click)="handleNavLinkClick($event)"

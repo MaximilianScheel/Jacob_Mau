@@ -9,5 +9,12 @@
   img {
     margin-bottom: 6rem;
     width: 70%;
-  }
+    filter: grayscale(100);
+  //   transition: filter 0.8s ease;
+
+  //   &:hover {
+  //     filter: grayscale(0);
+  //   }
+  // }
+}
 }
