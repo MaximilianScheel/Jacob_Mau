@@ -1,7 +1,13 @@
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  font-size: 1.7rem;
+  color: black;
+  line-height: 2;
 
+  span {
+    font-size: 2rem;
+  }
 }
 
 .logo-wrapper {
@@ -46,4 +52,25 @@ section {
     width: 75rem;
 
   }
+}
+
+.text-wrapper, .text-wrapper-two, .text-wrapper-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  line-height: 2;
+  color: black;
+
+  .text {
+    width: 75rem;
+  }
+
+  .text-headline {
+    margin: 3rem 0;
+  }
+}
+
+td {
+  padding-right: 1.5rem;
 }
