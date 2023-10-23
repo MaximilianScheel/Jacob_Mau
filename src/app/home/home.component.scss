@@ -10,24 +10,29 @@
 
   .image-container {
     position: relative;
-    width: 70%;
+    width: 75rem;
     margin-bottom: 6rem;
     overflow: hidden;
-    transition: filter 0.3s;
+    transition: filter 0.5s;
   }
 
   .image-container img {
-    width: 100%;
+    width: 75rem;
     filter: grayscale(100);
+    transition: filter 0.5s;
   }
 
   .image-container:hover .overlay {
     bottom: 0;
   }
 
+  .image-container:hover img {
+    filter: grayscale(0); 
+  }
+
   .overlay {
     position: absolute;
-    bottom: -100%;
+    bottom: -75rem;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.7);
