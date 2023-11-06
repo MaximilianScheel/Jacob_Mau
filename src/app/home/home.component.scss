@@ -27,7 +27,7 @@
   }
 
   .image-container:hover img {
-    filter: grayscale(0); 
+    filter: grayscale(0);
   }
 
   .overlay {
@@ -39,5 +39,6 @@
     color: white;
     padding: 20px;
     transition: bottom 0.3s;
+    font-size: 16px;
   }
 }

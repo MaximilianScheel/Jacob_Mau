@@ -37,6 +37,7 @@
 
 .navbar {
   position: relative;
+  display: flex;
 }
 
 .navbar a {
@@ -51,7 +52,9 @@
 
 .navbar a:hover,
 .navbar a.active {
-  color: var(--main-color);
+  color: black;
+  background-color: var(--main-color);
+  height: 80px;
 }
 
 #menu-icon {
