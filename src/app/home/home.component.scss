@@ -14,6 +14,8 @@
     margin-bottom: 6rem;
     overflow: hidden;
     transition: filter 0.5s;
+    height: 500px;
+    object-fit: cover;
   }
 
   .image-container img {
