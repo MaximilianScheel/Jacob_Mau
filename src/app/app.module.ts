@@ -16,6 +16,7 @@ import { EnergyConsultingComponent } from './energy-consulting/energy-consulting
 import { ProfileComponent } from './profile/profile.component';
 import { NgbCarousel, NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,7 @@ import { NgbCarousel, NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-boot
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
-    NgbCarouselModule
+    NgbCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
