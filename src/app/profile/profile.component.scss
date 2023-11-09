@@ -38,7 +38,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20rem;
+  padding-top: 12rem;
 
   img {
     width: 25rem;
@@ -136,22 +136,6 @@ span {
     overflow: hidden;
 }
 
-.education-content .content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--second-bg-color);
-    z-index: -1;
-    transition: .5s;
-}
-
-.education-content .content:hover::before {
-    width: 100%;
-}
-
 .education-content .content .year {
     font-size: 1.5rem;
     color: black;
@@ -174,7 +158,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 12rem;
 
   .education-box {
     width: 74rem;

@@ -15,6 +15,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 5rem;
 
   img {
     width: 100px;
@@ -78,4 +79,18 @@ td {
 
 .accordion-wrapper {
   font-size: 22px;
+  padding: 6rem 9% 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  .accordion-item {
+    width: 75rem;
+  }
 }
+
+

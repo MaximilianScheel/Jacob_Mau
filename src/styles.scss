@@ -6,7 +6,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Helvetica", "Arial", sans-serif;
+
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +28,7 @@
 // }
 
 :root {
-  --bg-color: #f5f9d4;
+  --bg-color: rgba(171, 160, 146, 0.15);
   --second-bg-color: #555555;
   --text-color: #ededed;
   --main-color: #daff0d;
@@ -41,7 +41,7 @@ html {
 
 body {
   color: var(--text-color);
-  background-color: lightgray;
+  background-color: rgba(171, 160, 146, 0.15)!important;
 }
 
 .carousel-control-prev,
