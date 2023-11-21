@@ -159,10 +159,8 @@ span {
   align-items: center;
   justify-content: center;
   margin-top: 12rem;
+  padding-right: 12rem;
 
-  .education-box {
-    width: 74rem;
-  }
 }
 
 
@@ -246,9 +244,30 @@ span {
   .animate.home-img {
       width: 55%;
   }
+
+  .img-wrapper {
+    flex-direction: column-reverse;
+    padding-top: 4rem;
+
+    img {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+
+  .wrapper-content {
+    padding-right: 0;
+  }
+
+  .education-box {
+    width: 100%;
+  }
+
+  .description-bio {
+    padding-top: 4rem;
+    text-align: center;
+  }
 }
-
-
 
 @media (max-width: 520px) {
   html {

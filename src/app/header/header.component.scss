@@ -1,6 +1,10 @@
 .header-wrapper {
   background-color: var(--second-bg-color);
   width: 100%;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .header {
@@ -51,8 +55,7 @@
 
 .navbar a:hover,
 .navbar a.active {
-  color: black;
-  background-color: var(--main-color);
+  color: #9ECA65;
   height: 80px;
 }
 
