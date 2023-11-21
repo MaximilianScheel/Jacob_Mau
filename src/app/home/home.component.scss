@@ -1,15 +1,13 @@
-
-  .carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 78vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding: 9rem 9% 2rem;
-  }
-
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 9rem 9% 2rem;
+}
 
 .carousel-slide {
   margin-top: 200px;
@@ -66,5 +64,16 @@
     .carousel-wrapper .carousel-control-next {
       display: none !important;
     }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+
+  .carousel-container {
+    height: 100%;
+  }
+  .carousel-slide {
+    height: 100%;
+    margin-top: 100px;
   }
 }

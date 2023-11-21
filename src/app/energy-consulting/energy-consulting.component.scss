@@ -70,3 +70,11 @@ section {
     margin-bottom: 3rem;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .img-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+}

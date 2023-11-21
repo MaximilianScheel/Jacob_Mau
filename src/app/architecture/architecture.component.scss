@@ -93,4 +93,23 @@ td {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .img-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+
+  .text-wrapper, .text-wrapper-two, .text-wrapper-three {
+    .text {
+      width: 100%;
+    }
+  }
+
+  .accordion-wrapper {
+    .accordion-item {
+      width: 100%;
+    }
+  }
+}
 
