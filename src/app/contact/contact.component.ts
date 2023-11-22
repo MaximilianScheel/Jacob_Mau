@@ -63,7 +63,7 @@ export class ContactSectionComponent {
     formData.append('email', emailField.value);
     formData.append('emailSubject', emailSubjectField.value);
 
-    await fetch('https://www.maxscheel.dev/send_mail/send_mail.php', {
+    await fetch('https://www.jacobmau.de/send_mail/send_mail.php', {
       method: 'POST',
       body: formData,
     });

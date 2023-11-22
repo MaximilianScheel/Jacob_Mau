@@ -67,7 +67,6 @@
 }
 
 
-
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
   html {
@@ -101,7 +100,7 @@
 
 @media (max-width: 768px) {
   .header {
-      background: var(--bg-color);
+      background: var(--second-bg-color);
   }
 
   #menu-icon {

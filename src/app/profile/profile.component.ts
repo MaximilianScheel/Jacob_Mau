@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-profile',
@@ -7,4 +8,4 @@ import { Component } from '@angular/core';
 })
 export class ProfileComponent {
 
-}
+  }

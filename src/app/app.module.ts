@@ -14,7 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EnergyConsultingComponent } from './energy-consulting/energy-consulting.component';
 import { ProfileComponent } from './profile/profile.component';
-import { NgbCarousel, NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LegalComponent } from './legal/legal.component';
+
 
 
 @NgModule({
@@ -28,7 +30,8 @@ import { NgbCarousel, NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-boot
     ArchitectureComponent,
     ContactSectionComponent,
     EnergyConsultingComponent,
-    ProfileComponent
+    ProfileComponent,
+    LegalComponent
   ],
   imports: [
     BrowserModule,
