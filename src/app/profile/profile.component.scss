@@ -52,7 +52,6 @@ section {
   }
 }
 
-
 .heading {
   position: relative;
   font-size: 5rem;
@@ -63,7 +62,6 @@ section {
 span {
   color: black;
 }
-
 
 .about-content {
   text-align: center;
@@ -246,13 +244,12 @@ span {
   }
 
   .img-wrapper {
-    flex-direction: column-reverse;
-    padding-top: 4rem;
+    flex-direction: column;
+    padding-top: 0;
 
     img {
       padding-left: 0;
-      width: 100%;
-      padding: 1rem;
+      padding-top: 7rem;
     }
   }
 
