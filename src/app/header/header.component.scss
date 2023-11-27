@@ -73,10 +73,6 @@
 }
 
 @media (max-width: 991px) {
-  .header {
-    padding: 2rem 4%;
-  }
-
   section {
     padding: 10rem 4% 2rem;
   }
@@ -99,6 +95,7 @@
 @media (max-width: 1068px) {
   .header {
     background: var(--second-bg-color);
+    padding: 2rem 4%;
   }
 
   #menu-icon {
