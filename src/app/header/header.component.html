@@ -9,46 +9,45 @@
       <span class="animate" style="--i: 2"></span>
     </div>
     <nav class="navbar" [ngClass]="{ active: isMenuOpen }">
-      <div class="a-tag">
+
         <a
-          href="#home"
-          [class.active]="activeSectionId === 'home'"
-          (click)="handleNavLinkClick($event)"
-          >aktuell</a
+            href="#home"
+            [class.active]="activeSectionId === 'home'"
+            (click)="handleNavLinkClick($event)"
+            >aktuell</a
         >
-      </div>
-      <div class="a-tag">
+
+
         <a
           href="#architecture"
           [class.active]="activeSectionId === 'architecture'"
           (click)="handleNavLinkClick($event)"
           >architektur</a
         >
-      </div>
-      <div class="a-tag">
+
         <a
           href="#energy-consulting"
           [class.active]="activeSectionId === 'energy-consulting'"
           (click)="handleNavLinkClick($event)"
           >energieberatung</a
         >
-      </div>
-      <div class="a-tag">
+
+
         <a
           href="#profile"
           [class.active]="activeSectionId === 'profile'"
           (click)="handleNavLinkClick($event)"
           >profil</a
         >
-      </div>
-      <div class="a-tag">
+
+
         <a
           href="#contact"
           [class.active]="activeSectionId === 'contact'"
           (click)="handleNavLinkClick($event)"
           >kontakt</a
         >
-      </div>
+
       <span class="active-nav"></span>
       <span class="animate" style="--i: 2"></span>
     </nav>
